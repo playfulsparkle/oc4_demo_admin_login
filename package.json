@@ -1,0 +1,28 @@
+{
+  "name": "oc4_demo_admin_login",
+  "version": "1.0.0",
+  "description": "Playful Sparkle - Demo admin login for OpenCart 4",
+  "main": "index.js",
+  "scripts": {
+    "compress": "node compress.js"
+  },
+  "keywords": [
+    "opencart",
+    "oc",
+    "playfulsparkle",
+    "demo",
+    "demo store",
+    "automatic login",
+    "extension"
+  ],
+  "author": "zsoltoroszlany82 <zsolt.oroszlany@playfulsparkle.com>",
+  "license": "GPL",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "fs": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playfulsparkle/oc4_demo_admin_login.git"
+  }
+}

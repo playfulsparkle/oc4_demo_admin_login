@@ -1,0 +1,9 @@
+{
+    "name": "Playful Sparkle - Demo admin login",
+    "description": "Share selected extension settings via a demo URL using a preconfigured demo admin account. Includes a Copy demo URL button and optional demo store notice banner.",
+    "code": "ps_demo_admin_login",
+    "license": "GPL",
+    "version": "1.0.0",
+    "author": "Playful Sparkle",
+    "link": "https://github.com/playfulsparkle/oc4_demo_admin_login.git"
+  }
