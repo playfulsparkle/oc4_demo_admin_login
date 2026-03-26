@@ -250,12 +250,11 @@ class PsDemoAdminLogin extends \Opencart\System\Engine\Controller
 
             $this->session->data['user_token'] = oc_token(32);
 
-            if (strpos($get_redirect, '?') !== 0) {
+            if (strpos($get_redirect, '?') == 0) {
                 $separator = '?';
             } else {
                 $separator = '&';
             }
-
 
             $new_url = $get_redirect . $separator . 'user_token=' . $this->session->data['user_token'];
 
