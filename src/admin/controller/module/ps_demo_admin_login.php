@@ -333,7 +333,27 @@ class PsDemoAdminLogin extends \Opencart\System\Engine\Controller
         $args['button_copy_url'] = $this->language->get('ps_button_copy_url');
         $args['text_url_copied'] = $this->language->get('ps_text_url_copied');
 
-        $args['demo_url'] = $this->url->link('common/login', 'username=' . $this->config->get('module_ps_demo_admin_login_username') . '&password=' . $this->config->get('module_ps_demo_admin_login_password') . '&redirect=' . urlencode($this->url->link($route)), true);
+        if (
+            strpos($route, '/analytics') !== 0 ||
+            strpos($route, '/advertise') !== 0 ||
+            strpos($route, '/theme') !== 0
+        ) {
+            $extension_params = '&store_id=' . $this->request->get['store_id'];
+        } else if (strpos($route, '/module') !== 0) {
+            $extension_params = '&module_id=' . $this->request->get['module_id'];
+        } else {
+            $extension_params = '';
+        }
+
+        $extension_url = $this->url->link($route, $extension_params);
+
+        $args['demo_url'] = $this->url->link(
+            'common/login',
+            'username=' . $this->config->get('module_ps_demo_admin_login_username') .
+            '&password=' . $this->config->get('module_ps_demo_admin_login_password') .
+            '&redirect=' . urlencode($extension_url),
+            true
+        );
 
 
         $views = $this->model_extension_ps_demo_admin_login_module_ps_demo_admin_login->replaceAdminViewExtensionViews($args);
