@@ -334,12 +334,16 @@ class PsDemoAdminLogin extends \Opencart\System\Engine\Controller
         $args['text_url_copied'] = $this->language->get('ps_text_url_copied');
 
         if (
-            strpos($route, '/analytics') !== 0 ||
-            strpos($route, '/advertise') !== 0 ||
-            strpos($route, '/theme') !== 0
+            isset($this->request->get['store_id']) &&
+            (strpos($route, '/analytics/') !== 0 ||
+            strpos($route, '/advertise/') !== 0 ||
+            strpos($route, '/theme/') !== 0)
         ) {
             $extension_params = '&store_id=' . $this->request->get['store_id'];
-        } else if (strpos($route, '/module') !== 0) {
+        } else if (
+            isset($this->request->get['module_id']) &&
+            strpos($route, '/module/') !== 0
+        ) {
             $extension_params = '&module_id=' . $this->request->get['module_id'];
         } else {
             $extension_params = '';
