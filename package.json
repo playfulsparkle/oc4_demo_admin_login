@@ -1,6 +1,6 @@
 {
   "name": "oc4_demo_admin_login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Playful Sparkle - Demo admin login for OpenCart 4",
   "main": "index.js",
   "scripts": {
