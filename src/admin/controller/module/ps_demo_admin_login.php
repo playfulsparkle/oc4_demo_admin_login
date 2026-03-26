@@ -250,7 +250,14 @@ class PsDemoAdminLogin extends \Opencart\System\Engine\Controller
 
             $this->session->data['user_token'] = oc_token(32);
 
-            $new_url = $get_redirect . '&user_token=' . $this->session->data['user_token'];
+            if (strpos($get_redirect, '?') !== 0) {
+                $separator = '?';
+            } else {
+                $separator = '&';
+            }
+
+
+            $new_url = $get_redirect . $separator . 'user_token=' . $this->session->data['user_token'];
 
             echo <<<HTML
                 <!DOCTYPE html>
@@ -336,8 +343,8 @@ class PsDemoAdminLogin extends \Opencart\System\Engine\Controller
         if (
             isset($this->request->get['store_id']) &&
             (strpos($route, '/analytics/') !== 0 ||
-            strpos($route, '/advertise/') !== 0 ||
-            strpos($route, '/theme/') !== 0)
+                strpos($route, '/advertise/') !== 0 ||
+                strpos($route, '/theme/') !== 0)
         ) {
             $extension_params = '&store_id=' . $this->request->get['store_id'];
         } else if (
