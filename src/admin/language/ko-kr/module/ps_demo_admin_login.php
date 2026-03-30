@@ -11,7 +11,7 @@ $_['text_group_account']       = 'Demo 계정 설정';
 $_['text_group_banner']        = 'Demo 배너 설정';
 $_['text_banner_status']       = 'Demo 배너 상태';
 $_['text_url_copied']          = 'Demo 설정 URL이 클립보드에 복사되었습니다.';
-$_['text_contact']             = '<p>추가 도움이 필요하시면 지원 팀에 문의해 주세요.</p><ul><li><strong>연락처:</strong> <a href="mailto:%s">%s</a></li><li><strong>문서:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">사용자 설명서</a></li></ul>';
+$_['text_contact']             = '<p>추가적인 도움이 필요하시면 당사의 지원 팀에 문의해 주시기 바랍니다.</p><ul><li><strong>지원 웹사이트:</strong> <a href="%1$s">%1$s</a></li><li><strong>GitHub 저장소:</strong> <a href="%2$s" target="_blank" rel="noopener noreferrer">%2$s</a></li><li><strong>지원 문의:</strong> <a href="mailto:%3$s">%3$s</a></li></ul>';
 
 // Tab
 $_['tab_general']              = '일반';

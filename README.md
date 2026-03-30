@@ -24,7 +24,7 @@ You are responsible for selecting and configuring the demo account used by this 
 - **One-Click Sharing**: Adds a "Copy demo URL" button near the Save button for instant link generation.
 - **Customizable Global Notice**: Displays a notification banner at the top of every admin page to identify the demo environment.
 - **Compatibility**: Integrates smoothly with OpenCart 4.x+, supporting a range of online store setups.
-- **Multilingual Support**: Ready for international use with languages including العربية (ar), Български (bg), 中文(简体) (zh-cn), 中文(繁體) (zh-tw), Čeština (cs-cz), English (UK) (en-gb), English (US) (en-us), Français (fr-fr), Deutsch (de-de), Ελληνικά (el-gr), Magyar (hu-hu), Italiano (it-it), 日本語 (ja), 한국어 (ko-kr), Polski (pl-pl), Português (Brasil) (pt-br), Русский (ru-ru), Slovenčina (sk-sk), Español (es-es), and Türkçe (tr-tr).
+- **Multilingual Support**: Ready for international use with languages including العربية (ar), فارسی (fa-ir), Български (bg), 中文(简体) (zh-cn), 中文(繁體) (zh-tw), Čeština (cs-cz), English (UK) (en-gb), English (US) (en-us), Français (fr-fr), Deutsch (de-de), Ελληνικά (el-gr), Magyar (hu-hu), Italiano (it-it), 日本語 (ja), 한국어 (ko-kr), Polski (pl-pl), Português (Brasil) (pt-br), Русский (ru-ru), Slovenčina (sk-sk), Español (es-es), and Türkçe (tr-tr).
 
 ---
 
@@ -43,7 +43,7 @@ You are responsible for selecting and configuring the demo account used by this 
 
 ## Support & Inquiries
 
-For assistance or inquiries related to this extension, please open an issue on this repository or contact us via email at [support@playfulsparkle.com](mailto:support@playfulsparkle.com).
+For assistance or inquiries related to this extension, please open an issue on this repository, visit our [url=https://support.playfulsparkle.com]support website[/url], or contact us via email at [support@playfulsparkle.com](mailto:support@playfulsparkle.com).
 
 ---
 

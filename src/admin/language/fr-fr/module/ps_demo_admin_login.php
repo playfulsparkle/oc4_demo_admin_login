@@ -11,7 +11,7 @@ $_['text_group_account']       = 'Paramètres du compte Demo';
 $_['text_group_banner']        = 'Paramètres de la bannière Demo';
 $_['text_banner_status']       = 'Statut de la bannière Demo';
 $_['text_url_copied']          = 'URL des paramètres Demo copiée dans le presse-papiers.';
-$_['text_contact']             = '<p>Pour toute assistance supplémentaire, veuillez contacter notre équipe d\'assistance :</p><ul><li><strong>Contact :</strong> <a href="mailto:%s">%s</a></li><li><strong>Documentation :</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Documentation utilisateur</a></li></ul>';
+$_['text_contact']             = '<p>Pour toute assistance complémentaire, veuillez contacter notre équipe d’assistance :</p><ul><li><strong>Site Web d’assistance :</strong> <a href="%1$s">%1$s</a></li><li><strong>Dépôt GitHub :</strong> <a href="%2$s" target="_blank" rel="noopener noreferrer">%2$s</a></li><li><strong>Contacter l’assistance :</strong> <a href="mailto:%3$s">%3$s</a></li></ul>';
 
 // Tab
 $_['tab_general']              = 'Général';

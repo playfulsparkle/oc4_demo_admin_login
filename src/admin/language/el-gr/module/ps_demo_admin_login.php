@@ -11,7 +11,7 @@ $_['text_group_account']       = 'Ρυθμίσεις λογαριασμού Demo
 $_['text_group_banner']        = 'Ρυθμίσεις banner Demo';
 $_['text_banner_status']       = 'Κατάσταση banner Demo';
 $_['text_url_copied']          = 'Η διεύθυνση URL ρυθμίσεων Demo αντιγράφηκε στο πρόχειρο.';
-$_['text_contact']             = '<p>Για περαιτέρω βοήθεια, επικοινωνήστε με την ομάδα υποστήριξής μας:</p><ul><li><strong>Επικοινωνία:</strong> <a href="mailto:%s">%s</a></li><li><strong>Τεκμηρίωση:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Τεκμηρίωση Χρήστη</a></li></ul>';
+$_['text_contact']             = '<p>Για περαιτέρω βοήθεια, επικοινωνήστε με την ομάδα υποστήριξής μας:</p><ul><li><strong>Ιστότοπος Υποστήριξης:</strong> <a href="%1$s">%1$s</a></li><li><strong>Αποθετήριο GitHub:</strong> <a href="%2$s" target="_blank" rel="noopener noreferrer">%2$s</a></li><li><strong>Επικοινωνία με την Υποστήριξη:</strong> <a href="mailto:%3$s">%3$s</a></li></ul>';
 
 // Tab
 $_['tab_general']              = 'Γενικά';

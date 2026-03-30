@@ -11,7 +11,7 @@ $_['text_group_account']       = 'Demo 帳戶設定';
 $_['text_group_banner']        = 'Demo 横幅設定';
 $_['text_banner_status']       = 'Demo 横幅狀態';
 $_['text_url_copied']          = 'Demo 設定 URL 已複製到剪貼簿。';
-$_['text_contact']             = '<p>如需進一步協助，請聯絡我們的支援團隊：</p><ul><li><strong>聯絡方式：</strong> <a href="mailto:%s">%s</a></li><li><strong>說明文件：</strong> <a href="%s" target="_blank" rel="noopener noreferrer">使用者說明文件</a></li></ul>';
+$_['text_contact']             = '<p>如需進一步協助，請聯繫我們的支援團隊：</p><ul><li><strong>支援網站：</strong> <a href="%1$s">%1$s</a></li><li><strong>GitHub 倉庫：</strong> <a href="%2$s" target="_blank" rel="noopener noreferrer">%2$s</a></li><li><strong>聯繫支援：</strong> <a href="mailto:%3$s">%3$s</a></li></ul>';
 
 // Tab
 $_['tab_general']              = '一般';

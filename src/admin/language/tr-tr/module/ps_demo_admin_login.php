@@ -11,7 +11,7 @@ $_['text_group_account']       = 'Demo hesap ayarları';
 $_['text_group_banner']        = 'Demo afiş ayarları';
 $_['text_banner_status']       = 'Demo afiş durumu';
 $_['text_url_copied']          = 'Demo ayarları URL\'si panonuza kopyalandı.';
-$_['text_contact']             = '<p>Daha fazla yardım için lütfen destek ekibimize ulaşın:</p><ul><li><strong>İletişim:</strong> <a href="mailto:%s">%s</a></li><li><strong>Dokümantasyon:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">Kullanıcı Dokümantasyonu</a></li></ul>';
+$_['text_contact']             = '<p>Daha fazla yardım için lütfen destek ekibimizle iletişime geçin:</p><ul><li><strong>Destek Web Sitesi:</strong> <a href="%1$s">%1$s</a></li><li><strong>GitHub Deposu:</strong> <a href="%2$s" target="_blank" rel="noopener noreferrer">%2$s</a></li><li><strong>Destekle İletişime Geçin:</strong> <a href="mailto:%3$s">%3$s</a></li></ul>';
 
 // Tab
 $_['tab_general']              = 'Genel';

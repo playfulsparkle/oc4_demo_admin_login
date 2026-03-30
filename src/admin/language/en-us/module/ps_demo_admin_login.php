@@ -11,7 +11,7 @@ $_['text_group_account']       = 'Demo account settings';
 $_['text_group_banner']        = 'Demo banner settings';
 $_['text_banner_status']       = 'Demo banner status';
 $_['text_url_copied']          = 'Demo settings URL copied to your clipboard.';
-$_['text_contact']             = '<p>For further assistance, please reach out to our support team:</p><ul><li><strong>Contact:</strong> <a href="mailto:%s">%s</a></li><li><strong>Documentation:</strong> <a href="%s" target="_blank" rel="noopener noreferrer">User Documentation</a></li></ul>';
+$_['text_contact']             = '<p>For further assistance, please reach out to our support team:</p><ul><li><strong>Support Website:</strong> <a href="%1$s">%1$s</a></li><li><strong>GitHub Repository:</strong> <a href="%2$s" target="_blank" rel="noopener noreferrer">%2$s</a></li><li><strong>Contact Support:</strong> <a href="mailto:%3$s">%3$s</a></li></ul>';
 
 // Tab
 $_['tab_general']              = 'General';
