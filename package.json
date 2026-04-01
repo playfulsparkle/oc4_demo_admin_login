@@ -9,11 +9,15 @@
   "keywords": [
     "opencart",
     "opencart4",
+    "opencart-extension",
     "playfulsparkle",
     "demo",
-    "demo store",
-    "automatic login",
-    "extension"
+    "demo-store",
+    "demo-login",
+    "demo-access",
+    "demo-url",
+    "admin-login",
+    "automatic-login"
   ],
   "author": "zsoltoroszlany82 <zsolt.oroszlany@playfulsparkle.com>",
   "license": "GPL",
